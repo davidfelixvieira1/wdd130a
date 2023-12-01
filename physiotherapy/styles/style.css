@@ -174,3 +174,25 @@ footer p a:hover {
 footer p {
   color: white;
 }
+
+/* this is the start of page 2, let's start. */
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.image-container img {
+  width: 45%; /* Adjust width as needed */
+  border: 4px solid #9358a4;
+}
+
+.msg {
+  background-color: #9358a4;
+  color: #ffffff;
+  line-height: 1.5em;
+  padding: 35px;
+  margin-top: 50px;
+  box-shadow: 5px 5px 10px #6f7364;
+}
