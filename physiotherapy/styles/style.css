@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,700&display=swap');
+
+:root {
+  --heading-font: "Bold 700 Italic";
+  --paragraph-font: "Light 300";
+}
+
+.home-title {
+  font-family: var(--heading-font), Bold 700 Italic;
+  font-size: 2em;
+  color: #ffffff;
+}
+
 body {
   text-align: center;
   background-color: #b49cbe;
   color: #ffffff;
-  font-family: var(--paragraph-font), Helvetica, sans-serif;
+  font-family: var(--paragraph-font), Light 300;
   font-size: 22px;
   margin: 0;
   padding: 0;
@@ -18,11 +31,6 @@ header {
     grid-template-columns: 150px auto;
   }
 
-.home-title {
-  font-family: var(--heading-font), Helvetica, sans-serif;
-  font-size: 2em;
-  color: steelblue;
-}
 
 nav {
   background-color: #9358a4;
@@ -36,9 +44,6 @@ a {
   margin: 40px;
 }
 
-h1 {
-  color: steelblue;
-}
 .claudia-msg {
     color:#ffffff
 }
