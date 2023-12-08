@@ -201,3 +201,47 @@ footer p {
   margin-top: 50px;
   box-shadow: 5px 5px 10px #6f7364;
 }
+
+/* this is the start of page 3, let's start. */
+/* Styles for the third page */
+
+
+
+#content {
+  margin-top: 40px; /* Ajuste o valor conforme necessário para deslocar o conteúdo para baixo */
+}
+
+.page-title {
+  margin-top: 150px
+}
+
+.image-container-page3 {
+  display: flex;
+  flex-direction: column; /* Empilha os elementos verticalmente */
+  align-items: flex-start; /* Alinha à esquerda */
+  margin-top: 50px;
+}
+
+.image-box-page3 {
+  display: flex; /* Permite alinhar a imagem e o parágrafo horizontalmente */
+  align-items: flex-start; /* Alinha à esquerda */
+  margin-bottom: 20px; /* Espaço entre as imagens */
+}
+
+.image-box-page3 img {
+  width: 590px; /* Largura da imagem */
+  border: 4px solid #9358a4;
+  margin-right: 30px; /* Espaço entre a imagem e o parágrafo */
+  margin-left: 30px;
+}
+
+.image-box-page3 p {
+  text-align: justify; /* Alinha os parágrafos */
+  width: calc(60% - 420px); /* Largura do parágrafo (60% menos a largura da imagem e a margem) */
+  margin-top: 100px; /* Move os parágrafos para baixo */
+  background-color: #9358a4; /* Cor de fundo para os parágrafos */
+  padding: 40px; /* Adiciona um espaçamento interno */
+  color: white; /* Cor do texto para contrastar com o fundo */
+}
+
+
