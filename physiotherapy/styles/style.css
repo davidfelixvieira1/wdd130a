@@ -51,7 +51,7 @@ a {
 img {
     margin-top: 100px;  
     width: 500px;
-    border: 6px solid #d5ded1;
+    border: 5px solid #d5ded1;
   }
 
 p {
@@ -190,7 +190,7 @@ footer p {
 
 .image-container img {
   width: 45%; /* Adjust width as needed */
-  border: 6px solid #d5ded1;
+  border: 5px solid #d5ded1;
 }
 
 .msg {
@@ -230,7 +230,7 @@ footer p {
 
 .image-box-page3 img {
   width: 590px; /* Largura da imagem */
-  border: 6px solid #d5ded1;
+  border: 5px solid #d5ded1;
   margin-right: 30px; /* Espaço entre a imagem e o parágrafo */
   margin-left: 30px;
 }
