@@ -6,7 +6,7 @@
 }
 
 .home-title {
-  font-family: var(--heading-font), Bold 700 Italic;
+  font-family: var(--heading-font), "Bold 700 Italic";
   font-size: 2em;
   color: #ffffff;
 }
@@ -15,7 +15,7 @@ body {
   text-align: center;
   background-color: #b49cbe;
   color: #ffffff;
-  font-family: var(--paragraph-font), Light 300;
+  font-family: var(--paragraph-font), "Light 300";
   font-size: 22px;
   margin: 0;
   padding: 0;
@@ -243,5 +243,3 @@ footer p {
   padding: 40px; /* Adiciona um espaçamento interno */
   color: white; /* Cor do texto para contrastar com o fundo */
 }
-
-
